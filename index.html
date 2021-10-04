@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>我的网页设计</title>
+	<link rel="stylesheet" type="text/css" href="wcss.css">
+</head>
+<body>
+	<script type="text/javascript">
+	alert("欢迎你的到来！！😙😊(鼠标右击页面播放音乐）")
+	</script>
+	<div class="home">
+		<div class="content">
+			<div class="stars"></div>
+			<img class="bgc" src="image/背景图.jpg" width="100%" alt="">
+			<h3 class="title">欢迎来到我的个人网站</h3>
+			<h3 class="titles">今天也要加油鸭！😎</h3>
+			<img class="icon" src="image/箭头.png" alt="" >
+			<div class="ribbon">
+				<a href="个人网页设计.html"><span>Home</span></a>
+				<a href="aboutme.html"><span>About</span></a>
+				<a href="Experience.html"><span>Experience</span></a>
 
+			</div>
+		</div>
+	<div class="pas1">
+			<audio autoplay="autoplay" id="audio" loop="loop">
+				<source src="image/背景音乐.mp3" type="audio/MP3">
+			</audio>
+			<img class="music_img" src="image/音乐图标.png" alt="">
+		</div>
+	<div class="back">
+		<div class="icons">
+			<div class="icons_items">
+				<img class="icons_items_imgs" src="image/图书馆.png" alt="">
+				<span>走进书香四溢图书馆，涤荡心灵</span>
+			</div>
+			<div class="icons_items">
+				<img class="icons_items_imgs" src="image/操场.png" alt="">
+				<span>体验青春激扬的操场，挥洒汗水</span>
+			</div>
+			<div class="icons_items">
+				<img class="icons_items_imgs" src="image/教学楼.png" alt="">
+				<span>步入高大雄伟的教学楼，学习知识</span>
+			</div>
+			<div class="icons_items">
+				<img class="icons_items_imgs" src="image/社团.png" alt="">
+				<span>参加丰富多彩的社团活动，享受生活</span>	
+			</div>
+		</div>
+		<div class="introduce">
+			<div class="introduce_item">
+				<img class="introduce_item_img" src="image/清晨.jpg" alt="">
+				<span class="introduce_item_title">清晨的第一缕阳光，物化成种，播洒在沧海横流的心田，让繁华人世的万千过客每日晨起，都能感受阳光扑面而来，以欢乐和感恩之心开始新的一天。</span>
+			</div>
+			<div class="introduce_item">
+				<span class="introduce_item_title">正午，结束半天的课程，拖着饥肠辘辘的身体，冲向食堂。拥挤的校园街道，北大校园似乎变成了热闹的集市，静谧的校园瞬间“活”了起来 </span>
+				<img class="introduce_item_img" src="image/校园.jpg" alt="">	
+			</div>
+			<div class="introduce_item">
+				<img class="introduce_item_img" src="image/下午.jpg" alt="">
+				<span class="introduce_item_title">不知不觉下午到来，望着玻璃窗外，窗前阳光倾泻，沏杯茶温暖心灵，悠悠下午茶，静静漫时光。一杯清肺腑，入梦亦留香。 </span>
+			</div>
+			<div class="introduce_item">
+				<span class="introduce_item_title">晚自习结束后，夜幕降临，幽蓝幽蓝的天空中点缀着无数的小星星。一眨一眨的，仿佛邀请人们到广阔的太空去邀游。皎洁的月亮像一只银色的小舟在深蓝色的大海中航行。</span>
+				<img class="introduce_item_img" src="image/星空.jpg" alt="">
+			</div>
+		</div>
+	</div>
+	</div>
+</body>
+<script>
+	let mucics = document.getElementById('audio')
+	document.body.addEventListener('mousemove',function(){
+		setTimeout(() =>{
+			mucics.play();
+		},2000);
+	},false);
+</script>
+</html>
